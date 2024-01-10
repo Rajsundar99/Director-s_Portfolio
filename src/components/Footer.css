@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: white;
+
+}
+.quick{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.quick>a{
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+    line-height: 50px;
+}
+.quick>p{
+    opacity: 50%;
+}
+.footer1{
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
